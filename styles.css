@@ -1,14 +1,24 @@
 body {
-    background-color: rgb(20, 0, 50);
+    background-color: black;
 
 }
 
-h1 {
+#box {
+    border: 5px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: white;
+    max-width: 500px;
+    margin:  0 auto;
+    margin-top: 2pc;
+}
+
+h1, h6 {
     text-align: center;
     color: white;
 }
 
-div {
+.items {
     margin: 0 auto;
     background-color: rgb(30, 0, 75);
     max-width: 300px;
@@ -18,9 +28,17 @@ div {
     border-color: white;
 }
 
+.border {
+    background-color:rgb(40, 0, 100);
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: black;
+}
+
 .linkMain {
     text-align: center;
     display: block;
     margin: 50px;
-    color:white
+    color:white;
 }
+
