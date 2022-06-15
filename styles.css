@@ -1,8 +1,10 @@
 /*Start of Index.html*/
 
-.bodyIndex {
+.bodyIndex,
+body {
     background-color: black;
-
+    display: block;
+    margin: 8px;
 }
 
 #box {
@@ -16,7 +18,8 @@
 }
 
 .h1Index, 
-.h6Index {
+.h6Index,
+h1 {
     text-align: center;
     color: white;
 }
@@ -58,3 +61,47 @@
 /*Start of lasagna.html*/
 
 /*End of lasagna.html*/
+
+/* Start of common CSS */
+
+#boxPage {
+    text-align: center;
+    margin: 0 auto;
+    list-style-position: inside;
+
+}
+
+img {
+    border-radius: 5%;
+    height: 200px;
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: 5% auto;
+    color: rgb(175, 175, 175);
+    background-color: rgb(30, 0, 75);
+    max-width: 80%;
+    max-height: auto;
+    border-radius: 20px;
+    border-style: double;
+    border-color: white;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+/* End of common CSS */
