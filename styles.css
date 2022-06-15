@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(20, 0, 50);
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    margin: 0 auto;
+    background-color: rgb(30, 0, 75);
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 20px;
+    border-style: double;
+    border-color: white;
+}
+
+.linkMain {
+    text-align: center;
+    display: block;
+    margin: 50px;
+    color:white
+}
