@@ -1,4 +1,6 @@
-body {
+/*Start of Index.html*/
+
+.bodyIndex {
     background-color: black;
 
 }
@@ -13,7 +15,8 @@ body {
     margin-top: 2pc;
 }
 
-h1, h6 {
+.h1Index, 
+.h6Index {
     text-align: center;
     color: white;
 }
@@ -42,3 +45,16 @@ h1, h6 {
     color:white;
 }
 
+/*End of Index.html*/
+
+/*Start of pasta.html*/
+
+/*End of pasta.html*/
+
+/*Start of pizza.html*/
+
+/*End of pizza.html*/
+
+/*Start of lasagna.html*/
+
+/*End of lasagna.html*/
